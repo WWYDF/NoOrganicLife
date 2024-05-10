@@ -15,5 +15,5 @@ By default, Mechs are enabled, and cannot be disabled. There are some options to
 
 | Key         | Enemies                    | Default |
 |-------------|----------------------------|---------|
-| allowBlobs  | Hygrodere                  | false   |
-| allowLiving | Coilhead Nutcracker Jester | false   |
+| allowBlobs  | Hygrodere                  | true    |
+| allowLiving | Coilhead Nutcracker Jester | true    |

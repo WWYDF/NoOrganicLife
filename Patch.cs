@@ -34,7 +34,7 @@ namespace NoOrganicLife
         private void Awake()
         {
             NOLConfig.allowBlobs = Config.Bind("Extra Allowed Enemies", "Allow Blobs?", true, "Whether or not the game should prevent Hygroderes from spawning inside.");
-            NOLConfig.allowLiving = Config.Bind("Extra Allowed Enemies", "Allow Gray-Area Enemies?", false, "Whether or not the game should prevent Coil Heads, Nutcrackers, and Jesters from spawning inside.");
+            NOLConfig.allowLiving = Config.Bind("Extra Allowed Enemies", "Allow Gray-Area Enemies?", true, "Whether or not the game should prevent Coil Heads, Nutcrackers, and Jesters from spawning inside.");
 
             mls = BepInEx.Logging.Logger.CreateLogSource(modName);
             mls.LogInfo("Loaded NoOrganicLife.");
